@@ -77,14 +77,6 @@ int main(void)
 			status = cpaDcGetNumIntermediateBuffers(dcInstHandles[0], &numBuffers);
 		}
 		printf("buffers -> status=%d numBuffers=%d\n", (int)status, (int)numBuffers);
-
-		/*if (CPA_STATUS_SUCCESS != status) {
-			status = PHYS_CONTIG_ALLOC() ...
-		}
-		for (bufferNum = 0; bufferNum < numBuffers; bufferNum++) {
-			...
-		}
-		*/
 	}
 
 	/* set the memory address translation function for the instance (user space) */
