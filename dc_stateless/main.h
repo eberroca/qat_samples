@@ -21,7 +21,6 @@
 
 
 #define MAX_INSTANCES 64
-#define SAMPLE_MAX_BUFF 1024
 
 
 struct completion_struct
